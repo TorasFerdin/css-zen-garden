@@ -1,27 +1,27 @@
-/* last content div padding bottom */
-.main > div:nth-last-child(2){
-    border-radius: 0 0 2em 0;
-    margin-bottom: 10px;
+@charset "UTF-8";
+
+body{
+    background-image: url("/images/circle-zen-sand-background-mindfulness-concept.jpg");
+    background-size: cover;
+    font-family: 'Zen Loop', cursive;
 }
 
-.main div{
-    margin-top: -20px;
-    margin-left: 0;
+.page-wrapper{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 2% 2% 2% 2% / 2% 2% 2% 2% ;
+    margin: 5rem;
+    padding: 1rem;
 }
 
-div h3 {
-    font-family: "Zen Loop", cursive;
-    font-size: 3em;
-    margin-bottom: .1em;
+h2,h3{
+    font-size: 2.9rem;
 }
 
-/* custom
-/* first letter of each p after h3 */
-.main h3 + p::first-letter {
-    text-transform: capitalize;
-    font-family: "Zen Loop", cursive;
-    font-style: italic;
-    color: var(--dark-color);
-    font-size: 3.6em;
-    margin: 0 5px 5px 0;
+p,li,a{
+    font-size: 2.5rem;
+}
+
+p:first-letter{
+    font-size: 2.6rem;
+    font-weight: bold;
 }
